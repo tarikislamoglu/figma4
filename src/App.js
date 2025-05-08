@@ -2,11 +2,9 @@ import React from "react";
 
 const App = () => {
   return (
-    <div className=" relative h-screen w-full flex justify-center items-center bg-[#02004FED]">
-      <img
-        src="/Polygon 2.png"
-        className="absolute top-10 right-0 pb-12 w-1/3 h-screen "
-      />
+    <div className=" relative h-screen w-[100vw] flex justify-center items-center bg-[#02004FED]">
+      <div className="custom-clip w-[600px] h-[700px] fixed top-[15px] left-[1100.5px] bg-[#333A7E42]"></div>
+      <div className="custom-clip w-[600px] h-[700px] fixed top-[25px] left-[-305.5px] bg-[#333A7E42] rotate-180"></div>
 
       <div className="flex flex-col w-1/3 space-y-5 pl-5">
         <h1 className="w-1/2 text-[50px] font-bold text-[#FFFFFF80] h-[85px] ">
@@ -14,7 +12,7 @@ const App = () => {
         </h1>
         <input
           placeholder="Username"
-          className="px-6 py-2 border-1  border-[#FFFFFF1A] text-[#FFFFFF80] bg-[#333A7E42]"
+          className="px-6 py-2 border-1  border-[#b9b4b41a] text-[#FFFFFF80] bg-[#333A7E42]"
         />
         <input
           placeholder="Password"
@@ -24,11 +22,6 @@ const App = () => {
           Login
         </button>
       </div>
-
-      <img
-        src="/Polygon 1.svg"
-        className="absolute top-10 left-0 pb-12 w-1/3 h-screen "
-      />
     </div>
   );
 };
